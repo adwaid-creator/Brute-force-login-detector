@@ -1,0 +1,13 @@
+Brute-Force Login Attempt Detector - requirements
+
+
+Language:
+
+#   Python 3.8 or higher
+#   Python modules used (all built into Python, so nothing extra to install):
+#   csv          - write the sample login log and read it back (csv.writer,   csv.DictReader)
+#   random       - generate the normal user activity in the sample data (random.seed for repeatable results)
+#   collections  - defaultdict, used to group login times by IP address
+#   datetime     - datetime and timedelta, used for timestamps and the 60-second time window
+# To run the project:
+#   python app.py
