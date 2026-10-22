@@ -1,8 +1,3 @@
-"""
-Brute-Force Login Attempt Detector
-Detects IP addresses that make many failed logins in a short time window.
-Uses only the Python standard library.
-"""
 import csv
 import random
 from collections import defaultdict
